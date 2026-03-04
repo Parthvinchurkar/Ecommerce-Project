@@ -1,18 +1,114 @@
-# React + Vite
+🛒 E-Commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive E-Commerce web application built using React, Redux Toolkit, Tailwind CSS, and Firebase Authentication.
+It includes product listing, cart management, checkout flow, mock payment selection, and order success handling.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Product Grid Display
 
-## React Compiler
+Search Functionality
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Add to Cart / Remove from Cart
 
-Note: This will impact Vite dev & build performances.
+Wishlist Toggle
 
-## Expanding the ESLint configuration
+Cart Persistence using localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Checkout Page (Address + Payment Method)
+
+Mock Payment (UPI / Card / COD)
+
+Order Success Page
+
+User Authentication (Login / Signup)
+
+Fully Responsive Design
+
+🛠 Tech Stack
+
+React
+
+Redux Toolkit
+
+React Router DOM
+
+Tailwind CSS
+
+Firebase Authentication
+
+LocalStorage
+
+📥 Installation & Setup
+
+Follow the steps below to run this project locally:
+
+1️⃣ Clone the Repository
+git clone https://github.com/Parthvinchurkar/Ecommerce-Project.git
+2️⃣ Navigate to Project Folder
+cd Ecommerce-Project
+3️⃣ Install Dependencies
+npm install
+4️⃣ Start Development Server
+npm run dev
+
+OR (if using Create React App):
+
+npm start
+
+
+🌐 Project Structure
+src/
+ ├── components/
+ ├── pages/
+ ├── features/
+ │     ├── cart/
+ │     ├── auth/
+ │     ├── products/
+ ├── store/
+ └── App.jsx
+🛒 How to Use
+
+Browse products
+
+Add products to cart
+
+Go to Cart
+
+Click Checkout
+
+Enter delivery address
+
+Select payment method
+
+Click Place Order
+
+View Order Success page
+
+💾 Cart Persistence
+
+Cart data is saved in browser localStorage.
+Even after refresh, cart items remain saved.
+
+📱 Responsive Design
+
+This project is fully responsive and works on:
+
+Mobile Devices
+
+Tablets
+
+Laptops
+
+Desktop Screens
+
+📦 Build for Production
+
+To create a production build:
+
+npm run build
+👨‍💻 Author
+
+GitHub: https://github.com/Parthvinchurkar
+
+⭐ If you like this project, feel free to star the repository!
